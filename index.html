@@ -11,6 +11,7 @@
       <div class="text-2xl font-bold">Nico.Le.Dev</div>
       <ul class="gap-4 justify-around hidden md:flex">
         <a href="#"
+        target="_blank"
           class="bg-white text-black px-7 py-2 hover:bg-black hover:text-white transition-colors duration-600 border"
         >
           <span class="text-center">Télécharger CV</span>
@@ -18,7 +19,7 @@
         <a href="#contact"
           class="border border-white px-7 py-2 hover:bg-white hover:text-black transition-colors duration-600"
         >
-          <span>Contact</aspan>
+          <span>Contact</span>
       </a>
       </ul>
     </nav>
@@ -129,11 +130,11 @@
           <div class="p-5">
             <h3 class="text-xl font-semibold pb-2">Projet 1</h3>
             <p class="text-gray-400 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              dolores.
+              Application de quiz de culture générale avec scores developpée en HTML, CSS et JavaScript.
             </p>
             <a
-              href="#"
+              href="https://quiz-app-nine-chi-87.vercel.app/"
+              target="_blank"
               class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
               >Voir le projet</a
             >
@@ -144,11 +145,11 @@
           <div class="p-5">
             <h3 class="text-xl font-semibold pb-2">Projet 2</h3>
             <p class="text-gray-400 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              dolores.
+              Application de recherche de pays développée en HTML, CSS et JavaScript.
             </p>
             <a
-              href="#"
+              href="https://country-search-self.vercel.app/"
+              target="_blank"
               class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
               >Voir le projet</a
             >
@@ -163,7 +164,7 @@
               dolores.
             </p>
             <a
-              href="#"
+              href="https://country-search-self.vercel.app/"
               class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
               >Voir le projet</a
             >
@@ -191,12 +192,13 @@
       <div class="md:grid grid-cols-2 gap-4 w-[80%] m-auto">
         <div class="border p-5">
           
-          <form action="">
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="785eda0d-ef07-43fa-8ca1-62fb377c35f4">
             <div class="mb-4">
               <label for="name" class="block mb-2">Nom</label>
               <input
                 type="text"
-                id="name"
+                name="name"
                 class="w-full p-2 border border-white bg-black text-white"
               />
             </div>
@@ -204,14 +206,14 @@
               <label for="email" class="block mb-2">Email</label>
               <input
                 type="email"
-                id="email"
+                name="email"
                 class="w-full p-2 border border-white bg-black text-white"
               />
             </div>
             <div class="mb-4">
               <label for="message" class="block mb-2">Message</label>
               <textarea
-                id="message"
+                name="message"
                 class="w-full p-2 border border-white bg-black text-white resize-none"
               ></textarea>
             </div>
@@ -261,6 +263,7 @@
           </div>
           <a
           href="#"
+          target="_blank"
             class="mt-3 bg-white text-black px-7 py-2 flex justify-center hover:bg-black hover:text-white transition-colors duration-600 border"
           >
             <span class="text-center">Télécharger CV</span>
