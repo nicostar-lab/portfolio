@@ -1,223 +1,304 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Nico.Le.Dev</title>
+    <link rel="shortcut icon" href="image/profile.jpg" type="image/x-icon" />
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Nico.Le.Dev</title>
-  <link rel="shortcut icon" href="image/profile.jpg" type="image/x-icon">
-  <link href="src/output.css" rel="stylesheet">
-</head>
-
-<body class="bg-black text-white p-10">
-  <nav class="flex justify-between items-center px-5 ">
-    <div class="text-2xl font-bold">Nico.Le.Dev</div>
-    <ul class="gap-4 justify-around hidden md:flex">
-      <a href="image/CV.pdf" target="_blank"
-        class="bg-white text-black px-7 py-2 hover:bg-black hover:text-white transition-colors duration-600 border">
-        <span class="text-center">Télécharger CV</span>
-      </a>
-      <a href="#contact"
-        class="border border-white px-7 py-2 hover:bg-white hover:text-black transition-colors duration-600">
-        <span>Contact</span>
-      </a>
-    </ul>
-  </nav>
-  <section class="flex flex-col mt-14 md:grid grid-cols-2 m-auto gap-20 reveal">
-    <div class=" border m-auto md:mr-0">
-      <img src="image/photo2.png" alt="" class="max-h-[500px] w-full" />
-    </div>
-    <div class="w-full md:w-full my-auto">
-      <h1 class="text-5xl font-bold">DETEH NICOLAS</h1>
-      <h2 class="text-2xl underline leading-15">
-        Etudiant en Développement d'Application
-      </h2>
-      <p class="text-gray-400 md:w-1/2  ">
-        En tant qu'étudiant passionné par le développement d'applications, je suis capable de concevoir des interfaces
-        modernes et de développer des fonctionnalités performantes, en assurant une intégration fluide entre le
-        front-end et le back-end avec les outils les plus pertinents. J'apprécie particulièrement relever des défis
-        techniques, optimiser l'expérience utilisateur et concrétiser des concepts en applications fonctionnelles.
-        Curieux et autonome, je m'adapte rapidement aux nouvelles technologies et aux besoins des projets pour livrer un
-        travail fiable et de qualité.
-      </p>
-      <div class="flex gap-4 pt-5">
-        <a href="https://www.linkedin.com/in/nicolas-deteh-b88571374" target="_blank"><img src="image/linkedin.png"
-            alt="" class="h-9" /></a>
-        <a href="https://github.com/nicostar-lab" target="_blank"><img src="image/github.png" alt="" class="h-9" /></a>
-      </div>
-    </div>
-  </section>
-  <section class="md:w-[80%] m-auto flex flex-col reveal ">
-    <h2 class="text-4xl font-bold mb-10 pt-20 text-center">Compétences</h2>
-    <div class=" grid grid-cols-2 md:grid-cols-3 gap-4 m-auto">
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">JavaScript</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">HTML</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=21278&frmat=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">CSS</h3>
-      </div>
-
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">React</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">Flutter</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">tailwindcss</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">Figma</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="image/github.png" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">Github</h3>
-      </div>
-      <div class="p-5 border border-white flex items-center justify-center">
-        <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" class="h-10 mr-4" />
-        <h3 class="text-xl font-semibold">Git</h3>
-      </div>
-    </div>
-  </section>
-  <section class=" m-auto flex flex-col  reveal">
-    <h2 class="text-4xl font-bold pt-20 pb-10 text-center">Projets</h2>
-    <div class="md:grid grid-cols-2 flex flex-col gap-4 w-[80%] m-auto ">
-      <div class="border border-white">
-        <img src="" alt="" class="w-full" />
-        <div class="p-5">
-          <h3 class="text-xl font-semibold pb-2">Projet 1</h3>
-          <img src="image/projet1.png" alt="" class="mb-8 ">
-          <p class="text-gray-400 mb-4">
-            Quiz sur la culture générale avec scores.
-          </p>
-          <a href="https://quiz-app-nine-chi-87.vercel.app/" target="_blank"
-            class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600">Voir le
-            projet</a>
-        </div>
-      </div>
-      <div class="border border-white">
-        <img src="" alt="" class="w-full" />
-        <div class="p-5">
-          <h3 class="text-xl font-semibold pb-2">Projet 2</h3>
-          <img src="image/projet2.png" alt="">
-          <p class="text-gray-400 mb-4">
-            Système de recherche de pays avec leur drapeau.
-          </p>
-          <a href="https://country-search-self.vercel.app/" target="_blank"
-            class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600">Voir le
-            projet</a>
-        </div>
-      </div>
-      <div class="border border-white">
-        <img src="" alt="" class="w-full" />
-        <div class="p-5">
-          <h3 class="text-xl font-semibold pb-2">Projet 3</h3>
-          <img src="image/projet3.png" alt="">
-          <p class="text-gray-400 mb-4">
-            Système de calcule le poids des objets sur différentes planètes.
-            dolores.
-          </p>
-          <a href="https://planets-tau-orcin.vercel.app//" target="_blank"
-            class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600">Voir le
-            projet</a>
-        </div>
-      </div>
-      <div class="border border-white">
-        
-        <div class="p-5">
-          <h3 class="text-xl font-semibold pb-2">Projet 4</h3>
-          <img src="image/projet4.png" alt="" class="w-full" />
-          <p class="text-gray-400 mb-4">
-            Application de ToDoList
-          </p>
-          <a href="https://to-do-list-nico-le-dev-15.vercel.app/" target="_blank"
-            class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600">Voir le
-            projet</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class=" m-auto mt-7 flex flex-col reveal" id="contact">
-    <h2 class="text-center text-4xl font-bold m-10">Restons en contact</h2>
-    <div class="md:grid grid-cols-2 gap-4 w-[80%] m-auto">
-      <div class="border p-5">
-
-        <form action="https://api.web3forms.com/submit" method="post">
-          <input type="hidden" name="access_key" value="785eda0d-ef07-43fa-8ca1-62fb377c35f4">
-          <div class="mb-4">
-            <label for="name" class="block mb-2">Nom</label>
-            <input type="text" name="name" class="w-full p-2 border border-white bg-black text-white" />
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block mb-2">Email</label>
-            <input type="email" name="email" class="w-full p-2 border border-white bg-black text-white" />
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block mb-2">Message</label>
-            <textarea name="message" class="w-full p-2 border border-white bg-black text-white resize-none"></textarea>
-          </div>
-          <button type="submit"
-            class="px-5 py-2 border border-white hover:bg-white hover:text-black transition-colors duration-600">
-            Envoyer
-          </button>
-        </form>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold pb-2 my-5">Mes réseaux</h3>
-        <div class="border p-5">
-          <p class="mb-4">
-            Vous pouvez me retrouver sur les réseaux sociaux suivants :
-          </p>
-          <ul class="flex flex-col gap-3">
-            <li class="mb-2">
-              <a href="#" class="flex items-center gap-1">
-                <img src="image/email.png" alt="LinkedIn" class="h-7" />
-                Email</a>
-              <p class="text-gray-400">nicostardeteh00@gmail.com</p>
-            </li>
-            <li class="mb-2">
-              <a href="#" class="flex items-center gap-1">
-                <img src="image/telephone.png" alt="Téléphone" class="h-7" />
-                Téléphone</a>
-              <p class="text-gray-400">+228 97 31 08 89</p>
-            </li>
-            <li class="mb-2">
-              <a href="https://www.linkedin.com/in/nicolas-deteh-b88571374" target="_blank"
-                class="flex items-center gap-1">
-                <img src="image/linkedin.png" alt="LinkedIn" class="h-7" />
-                LinkedIn</a>
-            </li>
-            <li class="mb-2">
-              <a href="https://github.com/nicostar-lab" target="_blank" class="flex items-center gap-1">
-                <img src="image/github.png" alt="GitHub" class="h-7" />
-                Github</a>
-
-            </li>
-          </ul>
-        </div>
-        <a href="image/CV.pdf" target="_blank"
-          class="mt-3 bg-white text-black px-7 py-2 flex justify-center hover:bg-black hover:text-white transition-colors duration-600 border">
+  <body class="bg-black text-white p-10">
+    <nav class="flex justify-between items-center px-5">
+      <div class="text-2xl font-bold">Nico.Le.Dev</div>
+      <ul class="gap-4 justify-around hidden md:flex">
+        <a
+          href="image/CV.pdf"
+          target="_blank"
+          class="bg-white text-black px-7 py-2 hover:bg-black hover:text-white transition-colors duration-600 border"
+        >
           <span class="text-center">Télécharger CV</span>
         </a>
+        <a
+          href="#contact"
+          class="border border-white px-7 py-2 hover:bg-white hover:text-black transition-colors duration-600"
+        >
+          <span>Contact</span>
+        </a>
+      </ul>
+    </nav>
+    <section
+      class="flex flex-col mt-14 md:grid grid-cols-2 m-auto gap-20 reveal"
+    >
+      <div class="border m-auto md:mr-0">
+        <img src="image/photo2.png" alt="" class="max-h-[500px] w-full" />
       </div>
-    </div>
-  </section>
-  <footer class="mt-20 border-t pt-5">
-    <div class=" m-auto  text-center">
-      <p class="text-gray-400">&copy; 2025 Nicolas DETEH. Tous droits réservés.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
+      <div class="w-full md:w-full my-auto">
+        <h1 class="text-5xl font-bold">DETEH NICOLAS</h1>
+        <h2 class="text-2xl underline leading-15">
+          Etudiant en Développement d'Application
+        </h2>
+        <p class="text-gray-400 md:w-1/2">
+          Étudiant passionné par le développement d’applications, je conçois des
+          interfaces modernes et des fonctionnalités performantes, avec une
+          bonne intégration front-end / back-end. Curieux et autonome, je
+          m’adapte rapidement aux nouvelles technologies pour livrer des
+          solutions fiables et orientées expérience utilisateur.
+        </p>
+        <div class="flex gap-4 pt-5">
+          <a
+            href="https://www.linkedin.com/in/nicolas-deteh-b88571374"
+            target="_blank"
+            ><img src="image/linkedin.png" alt="" class="h-9"
+          /></a>
+          <a href="https://github.com/nicostar-lab" target="_blank"
+            ><img src="image/github.png" alt="" class="h-9"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="md:w-[80%] m-auto flex flex-col reveal">
+      <h2 class="text-4xl font-bold mb-10 pt-20 text-center">Compétences</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 m-auto">
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">JavaScript</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">HTML</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=21278&frmat=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">CSS</h3>
+        </div>
 
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">React</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">Flutter</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">tailwindcss</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">Figma</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img src="image/github.png" alt="" class="h-10 mr-4" />
+          <h3 class="text-xl font-semibold">Github</h3>
+        </div>
+        <div class="p-5 border border-white flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+            alt=""
+            class="h-10 mr-4"
+          />
+          <h3 class="text-xl font-semibold">Git</h3>
+        </div>
+      </div>
+    </section>
+    <section class="m-auto flex flex-col reveal">
+      <h2 class="text-4xl font-bold pt-20 pb-10 text-center">Projets</h2>
+      <div class="md:grid grid-cols-2 flex flex-col gap-4 w-[80%] m-auto">
+        <div class="border border-white">
+          <img src="" alt="" class="w-full" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold pb-2">Projet 1</h3>
+            <img src="image/projet1.png" alt="" class="mb-8" />
+            <p class="text-gray-400 mb-4">
+              Quiz sur la culture générale avec scores.
+            </p>
+            <a
+              href="https://quiz-app-nine-chi-87.vercel.app/"
+              target="_blank"
+              class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
+        <div class="border border-white">
+          <img src="" alt="" class="w-full" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold pb-2">Projet 2</h3>
+            <img src="image/projet2.png" alt="" />
+            <p class="text-gray-400 mb-4">
+              Système de recherche de pays avec leur drapeau.
+            </p>
+            <a
+              href="https://country-search-self.vercel.app/"
+              target="_blank"
+              class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
+        <div class="border border-white">
+          <img src="" alt="" class="w-full" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold pb-2">Projet 3</h3>
+            <img src="image/projet3.png" alt="" />
+            <p class="text-gray-400 mb-4">
+              Système de calcule le poids des objets sur différentes planètes.
+              dolores.
+            </p>
+            <a
+              href="https://planets-tau-orcin.vercel.app//"
+              target="_blank"
+              class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
+        <div class="border border-white">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold pb-2">Projet 4</h3>
+            <img src="image/projet4.png" alt="" class="w-full" />
+            <p class="text-gray-400 mb-4">Application de ToDoList</p>
+            <a
+              href="https://to-do-list-nico-le-dev-15.vercel.app/"
+              target="_blank"
+              class="p-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="m-auto mt-7 flex flex-col reveal" id="contact">
+      <h2 class="text-center text-4xl font-bold m-10">Restons en contact</h2>
+      <div class="md:grid grid-cols-2 gap-4 w-[80%] m-auto">
+        <div class="border p-5">
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input
+              type="hidden"
+              name="access_key"
+              value="785eda0d-ef07-43fa-8ca1-62fb377c35f4"
+            />
+            <div class="mb-4">
+              <label for="name" class="block mb-2">Nom</label>
+              <input
+                type="text"
+                name="name"
+                class="w-full p-2 border border-white bg-black text-white"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block mb-2">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="w-full p-2 border border-white bg-black text-white"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block mb-2">Message</label>
+              <textarea
+                name="message"
+                class="w-full p-2 border border-white bg-black text-white resize-none"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="px-5 py-2 border border-white hover:bg-white hover:text-black transition-colors duration-600"
+            >
+              Envoyer
+            </button>
+          </form>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold pb-2 my-5">Mes réseaux</h3>
+          <div class="border p-5">
+            <p class="mb-4">
+              Vous pouvez me retrouver sur les réseaux sociaux suivants :
+            </p>
+            <ul class="flex flex-col gap-3">
+              <li class="mb-2">
+                <a href="#" class="flex items-center gap-1">
+                  <img src="image/email.png" alt="LinkedIn" class="h-7" />
+                  Email</a
+                >
+                <p class="text-gray-400">nicostardeteh00@gmail.com</p>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="flex items-center gap-1">
+                  <img src="image/telephone.png" alt="Téléphone" class="h-7" />
+                  Téléphone</a
+                >
+                <p class="text-gray-400">+228 97 31 08 89</p>
+              </li>
+              <li class="mb-2">
+                <a
+                  href="https://www.linkedin.com/in/nicolas-deteh-b88571374"
+                  target="_blank"
+                  class="flex items-center gap-1"
+                >
+                  <img src="image/linkedin.png" alt="LinkedIn" class="h-7" />
+                  LinkedIn</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="https://github.com/nicostar-lab"
+                  target="_blank"
+                  class="flex items-center gap-1"
+                >
+                  <img src="image/github.png" alt="GitHub" class="h-7" />
+                  Github</a
+                >
+              </li>
+            </ul>
+          </div>
+          <a
+            href="image/CV.pdf"
+            target="_blank"
+            class="mt-3 bg-white text-black px-7 py-2 flex justify-center hover:bg-black hover:text-white transition-colors duration-600 border"
+          >
+            <span class="text-center">Télécharger CV</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-20 border-t pt-5">
+      <div class="m-auto text-center">
+        <p class="text-gray-400">
+          &copy; 2025 Nicolas DETEH. Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
